@@ -1,0 +1,111 @@
+/*Limpar formatação padrão*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: 16px "Verdana", Arial;
+	background-color: #E6E6E6;
+}
+
+/*Área do cabeçalho*/
+#area-cabecalho{
+	background-color: #FFBF00;
+	text-align: center;
+	padding: 20px 0;
+}
+.blog{
+	color: white;
+}
+
+/*Área do menu*/
+#area-menu{
+	padding: 15px 0;
+}
+#area-menu a, #area-menu a:link{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+}
+#area-menu a:visited{
+	color: blue;
+}
+#area-menu a:hover{
+	color: #FFBF00;
+	background-color: white;
+	font-weight: bold;
+}
+
+/*Área conteúdo*/
+#area-conteudo{
+	width: 920px;
+	margin: 0 auto;
+}
+
+/*Área das postagens*/
+#area-postagens{
+	width: 640px;
+	float: left;
+	margin-bottom: 20px;
+}
+.postagem{
+	padding: 20px;
+	background-color: white;
+	margin-top: 20px;
+}
+.postagem h2{
+	color: #FFBF00;
+	font-size: 1.3em;
+}
+.postagem span{
+	font-size: 0.8em;
+	display: block;
+	margin-bottom: 10px;
+}
+.postagem p{
+	font-size: 0.9em;
+}
+.postagem a, .conteudo-lateral a{
+	color: #FFBF00;
+	text-decoration: none;
+}
+.postagem a:hover, .conteudo-lateral a:hover{
+	text-decoration: underline;
+}
+
+/*Área lateral*/
+#area-lateral{
+	width: 260px;
+	float: right;
+}
+.conteudo-lateral{
+	background-color: white;
+	padding: 10px;
+	margin-top: 20px;
+}
+.conteudo-lateral h3{
+	background-color: #D8D8D8;
+	color: #6E6E6E;
+	font-size: 1.1em;
+	padding: 5px;
+}
+.conteudo-lateral p{
+	font-size: 0.8em;
+	padding: 5px;
+}
+.conteudo-lateral a{
+	padding: 0 0 7px 5px;
+	display: block;
+	border-bottom: 1px solid silver;
+}
+
+/*Rodapé*/
+#rodape{
+	text-align: center;
+	clear: both;
+	background-color: silver;
+	padding: 10px 0;
+}
+#rodape span{
+	font-size: 0.9em;
+}
